@@ -2,7 +2,7 @@ my wp custom folder structure
 
 # Instalation
 
-1. just clone or upload this repo to your hosting
+1. just clone or upload this repo to your hosting and create user and db
 2. download wordpress and extract to system folder just overwrite or you can skip downloading latest wordpress and update later on dashboard
    https://wordpress.org/latest.zip
 3. edit wp-config.php change
@@ -15,3 +15,6 @@ my wp custom folder structure
 cd system
 ln -s ../app app
 ```
+
+5. open your url and start instalation
+6. change your site url to https://www.domain.com/system
