@@ -11,4 +11,4 @@ my wp custom folder structure
    define('DB_PASSWORD', 'dbpass');
 4. create symlink app on system folder https://www.namecheap.com/support/knowledgebase/article.aspx/9561/29/how-to-create-a-symbolic-link-in-cpanel/
 5. open your url and start instalation
-6. change your site url to https://www.domain.com/system
+6. change your WordPress Address (URL) to https://www.domain.com/system
