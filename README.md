@@ -12,3 +12,11 @@ my wp custom folder structure
 4. create symlink app on system folder https://www.namecheap.com/support/knowledgebase/article.aspx/9561/29/how-to-create-a-symbolic-link-in-cpanel/
 5. open your url and start instalation
 6. change your WordPress Address (URL) to https://www.domain.com/system
+
+
+How to create symlink on cpanel
+go to cronjob add 1 min in Common Settings
+and add command 
+ln -s /home/yourfolder/public_html/app/ /home/yourfolder/public_html/system/app
+
+after cpanel create symlink remove the cron
